@@ -1,0 +1,43 @@
+{
+  "name": "amashuri",
+  "version": "1.0.0",
+  "description": "A simple npm package that lists all primary and secondary schools that are registered by REB and WDA in Rwanda.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc mocha ./test/* --exit",
+    "fix-lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakoemmy/amashuri.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "3.0.9",
+    "eslint": ">=6.7.2",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "supertest": "^4.0.2"
+  },
+  "keywords": [
+    "Amashuri",
+    "REB",
+    "WDA",
+    "ishuri",
+    "amashuri yose",
+    "amashuri yose mu Rwanda",
+    "all schools in Rwanda",
+    "list of seconadary schools",
+    "all schools in Rwanda npm"
+  ],
+  "author": "Emmanuel HAKORIMANA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakoemmy/amashuri/issues"
+  },
+  "homepage": "https://github.com/hakoemmy/amashuri#readme"
+}
