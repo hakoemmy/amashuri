@@ -5,8 +5,7 @@
     },
     "rules": {
       "one-var": 0,
-      "linebreak-style": ["error", "unix"],
-      "quotes": ["error", "double"],
+      "quotes": ["error", "single"],
       "semi": ["error", "always"],
       "comma-dangle": ["error", "never"],
       "no-restricted-syntax": 0,
@@ -36,7 +35,8 @@
       "no-useless-escape": 2,
       "vars-on-top": 0,
       "prefer-arrow-callback": 0,
-      "indent": ["error", 2]
+      "indent": ["error", 2],
+      "linebreak-style":"off"
     }
   }
   
